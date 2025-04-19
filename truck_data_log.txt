@@ -1,0 +1,48 @@
+[2025-04-04 16:48:25] Request received
+Raw input: {"status":"passed","trucks_passed":4,"total_trucks":7,"rejected_trucks":0}
+Data inserted successfully
+[2025-04-04 16:48:28] Request received
+Raw input: {"status":"rejected","trucks_passed":4,"total_trucks":7,"rejected_trucks":1}
+Data inserted successfully
+[2025-04-04 16:48:31] Request received
+Raw input: {"status":"rejected","trucks_passed":4,"total_trucks":7,"rejected_trucks":2}
+Data inserted successfully
+[2025-04-04 16:48:32] Request received
+Raw input: {"status":"rejected","trucks_passed":4,"total_trucks":7,"rejected_trucks":3}
+Data inserted successfully
+[2025-04-04 17:08:33] Request received
+Raw input: {"status":"passed","trucks_passed":7,"total_trucks":9,"rejected_trucks":0}
+Data inserted successfully
+[2025-04-04 17:08:35] Request received
+Raw input: {"status":"rejected","trucks_passed":8,"total_trucks":9,"rejected_trucks":1}
+Data inserted successfully
+[2025-04-04 18:28:18] Request received
+Raw input: {"status":"passed","trucks_passed":7,"total_trucks":8,"rejected_trucks":1}
+Data inserted successfully
+[2025-04-04 18:28:22] Request received
+Raw input: {"status":"rejected","trucks_passed":7,"total_trucks":8,"rejected_trucks":2}
+Data inserted successfully
+[2025-04-16 07:34:55] Request received
+Raw input: {"status":"passed","trucks_passed":4,"total_trucks":8,"rejected_trucks":3}
+Data inserted successfully
+[2025-04-16 07:34:58] Request received
+Raw input: {"status":"rejected","trucks_passed":4,"total_trucks":8,"rejected_trucks":4}
+Data inserted successfully
+[2025-04-16 07:35:01] Request received
+Raw input: {"status":"rejected","trucks_passed":4,"total_trucks":8,"rejected_trucks":5}
+Data inserted successfully
+[2025-04-16 07:35:04] Request received
+Raw input: {"status":"rejected","trucks_passed":4,"total_trucks":8,"rejected_trucks":6}
+Data inserted successfully
+[2025-04-16 11:45:19] Request received
+Raw input: {"status":"passed","trucks_passed":2,"total_trucks":5,"rejected_trucks":3}
+Data inserted successfully
+[2025-04-16 13:38:31] Request received
+Raw input: {"status":"passed","trucks_passed":3,"total_trucks":4,"rejected_trucks":2}
+Data inserted successfully
+[2025-04-16 14:37:37] Request received
+Raw input: {"status":"passed","trucks_passed":3,"total_trucks":4,"rejected_trucks":2}
+Data inserted successfully
+[2025-04-16 14:37:40] Request received
+Raw input: {"status":"rejected","trucks_passed":3,"total_trucks":4,"rejected_trucks":3}
+Data inserted successfully

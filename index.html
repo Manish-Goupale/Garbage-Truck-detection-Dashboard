@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Login &amp; Registration</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <!-- Radio Buttons to Switch Between Forms -->
+            <input type="radio" id="login" name="form" checked onclick="showLoginForm()">
+            <label for="login" class="form-label"><i class="fas fa-sign-in-alt"></i> Login</label>
+            <input type="radio" id="register" name="form" onclick="showRegistrationForm()">
+            <label for="register" class="form-label"><i class="fas fa-user-plus"></i> Register</label>
+
+            <!-- Login Form -->
+            <div class="form-content" id="loginForm">
+                <h2><i class="fas fa-sign-in-alt"></i> Login</h2>
+                <form id="login-form" action="login_register.php" method="POST">
+                    <input type="hidden" name="login" value="1">
+                    <label for="loginUserID">User ID:</label>
+                    <input type="text" id="loginUserID" name="loginUserID" required>
+                    <label for="loginPassword">Password:</label>
+                    <input type="password" id="loginPassword" name="loginPassword" required>
+                    <button type="submit"><i class="fas fa-sign-in-alt"></i> Login</button>
+                </form>
+                <div id="loginMessage"></div>
+            </div>
+
+            <!-- Registration Form -->
+            <div class="form-content" id="registrationForm" style="display: none;">
+                <h2><i class="fas fa-user-plus"></i> Register</h2>
+                <form id="register-form" action="login_register.php" method="POST">
+                    <input type="hidden" name="register" value="1">
+                    <label for="plantName">Plant Name:</label>
+                    <input type="text" id="plantName" name="plantName" required>
+                    <label for="mineName">Mine Name:</label>
+                    <input type="text" id="mineName" name="mineName" required>
+                    <label for="truckCategory">Truck Category:</label>
+                    <select id="truckCategory" name="truckCategory" required>
+                        <option value="30">30 Tons</option>
+                        <option value="60">60 Tons</option>
+                        <option value="100">100 Tons</option>
+                    </select>
+                    <label for="userID">User ID:</label>
+                    <input type="text" id="userID" name="userID" required>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="mobile">Mobile Number:</label>
+                    <input type="text" id="mobile" name="mobile" required>
+                    <button type="submit"><i class="fas fa-user-plus"></i> Register</button>
+                </form>
+                <div id="registrationMessage"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript to Toggle Forms -->
+    <script src="scripts.js"></script>
+</body>
+</html>
